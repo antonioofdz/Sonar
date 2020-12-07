@@ -8,22 +8,34 @@
 
 /* Begin PBXBuildFile section */
 		1561C6AE2577F25A00ADA709 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1561C6AD2577F25900ADA709 /* AppDelegate.swift */; };
-		1561C6B02577F25A00ADA709 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1561C6AF2577F25A00ADA709 /* ViewController.swift */; };
+		1561C6B02577F25A00ADA709 /* InicioSesion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1561C6AF2577F25A00ADA709 /* InicioSesion.swift */; };
 		1561C6B32577F25A00ADA709 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1561C6B12577F25A00ADA709 /* Main.storyboard */; };
 		1561C6B62577F25A00ADA709 /* Proyecto.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1561C6B42577F25A00ADA709 /* Proyecto.xcdatamodeld */; };
 		1561C6B82577F26200ADA709 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1561C6B72577F26200ADA709 /* Assets.xcassets */; };
 		1561C6BB2577F26200ADA709 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1561C6B92577F26200ADA709 /* LaunchScreen.storyboard */; };
+		15E3FCFA2578189E00A1925B /* Registro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15E3FCF92578189E00A1925B /* Registro.swift */; };
+		15E3FCFC257818B400A1925B /* Resumen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15E3FCFB257818B400A1925B /* Resumen.swift */; };
+		15E3FCFE257818DB00A1925B /* Inicio.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15E3FCFD257818DB00A1925B /* Inicio.swift */; };
+		15E3FD00257818F000A1925B /* NuevaExploracion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15E3FCFF257818F000A1925B /* NuevaExploracion.swift */; };
+		15E3FD022578190900A1925B /* Exploracion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15E3FD012578190900A1925B /* Exploracion.swift */; };
+		15E3FD042578192000A1925B /* Celda.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15E3FD032578192000A1925B /* Celda.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		1561C6AA2577F25900ADA709 /* Proyecto.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Proyecto.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1561C6AD2577F25900ADA709 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		1561C6AF2577F25A00ADA709 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1561C6AF2577F25A00ADA709 /* InicioSesion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InicioSesion.swift; sourceTree = "<group>"; };
 		1561C6B22577F25A00ADA709 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1561C6B52577F25A00ADA709 /* Proyecto.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Proyecto.xcdatamodel; sourceTree = "<group>"; };
 		1561C6B72577F26200ADA709 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1561C6BA2577F26200ADA709 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1561C6BC2577F26200ADA709 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		15E3FCF92578189E00A1925B /* Registro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Registro.swift; sourceTree = "<group>"; };
+		15E3FCFB257818B400A1925B /* Resumen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Resumen.swift; sourceTree = "<group>"; };
+		15E3FCFD257818DB00A1925B /* Inicio.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Inicio.swift; sourceTree = "<group>"; };
+		15E3FCFF257818F000A1925B /* NuevaExploracion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NuevaExploracion.swift; sourceTree = "<group>"; };
+		15E3FD012578190900A1925B /* Exploracion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Exploracion.swift; sourceTree = "<group>"; };
+		15E3FD032578192000A1925B /* Celda.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Celda.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +69,13 @@
 			isa = PBXGroup;
 			children = (
 				1561C6AD2577F25900ADA709 /* AppDelegate.swift */,
-				1561C6AF2577F25A00ADA709 /* ViewController.swift */,
+				1561C6AF2577F25A00ADA709 /* InicioSesion.swift */,
+				15E3FCF92578189E00A1925B /* Registro.swift */,
+				15E3FCFB257818B400A1925B /* Resumen.swift */,
+				15E3FCFD257818DB00A1925B /* Inicio.swift */,
+				15E3FCFF257818F000A1925B /* NuevaExploracion.swift */,
+				15E3FD012578190900A1925B /* Exploracion.swift */,
+				15E3FD032578192000A1925B /* Celda.swift */,
 				1561C6B12577F25A00ADA709 /* Main.storyboard */,
 				1561C6B72577F26200ADA709 /* Assets.xcassets */,
 				1561C6B92577F26200ADA709 /* LaunchScreen.storyboard */,
@@ -138,7 +156,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1561C6B02577F25A00ADA709 /* ViewController.swift in Sources */,
+				15E3FD042578192000A1925B /* Celda.swift in Sources */,
+				15E3FD022578190900A1925B /* Exploracion.swift in Sources */,
+				15E3FCFA2578189E00A1925B /* Registro.swift in Sources */,
+				15E3FD00257818F000A1925B /* NuevaExploracion.swift in Sources */,
+				15E3FCFC257818B400A1925B /* Resumen.swift in Sources */,
+				15E3FCFE257818DB00A1925B /* Inicio.swift in Sources */,
+				1561C6B02577F25A00ADA709 /* InicioSesion.swift in Sources */,
 				1561C6B62577F25A00ADA709 /* Proyecto.xcdatamodeld in Sources */,
 				1561C6AE2577F25A00ADA709 /* AppDelegate.swift in Sources */,
 			);
